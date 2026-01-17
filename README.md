@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AdCoach - The Future of AI Advertising 🚀
 
-## Getting Started
+![AdCoach Banner](public/images/dashboard-mockup.png)
 
-First, run the development server:
+**AdCoach** is a next-generation AI advertising platform designed for high-growth brands. It combines **premium aesthetics**, **autonomous agents**, and **dynamic design** to create an immersive user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Built with **Next.js 16**, **Tailwind CSS**, and **Framer Motion**, AdCoach treats the user interface as a first-class feature, not just a wrapper.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🎨 Premium Visual Experience
+-   **Dynamic Shader Backgrounds**: Custom-built WebGL shaders that shift themes based on page context (Midnight Lavender for Auth, Hypnotic Ocean for Pricing).
+-   **Glassmorphism Everywhere**: High-quality frosted glass effects (`backdrop-blur-md`) grounded by a "Premium Dark" aesthetic.
+-   **Bento Grid Layout**: A modern, asymmetric grid layout for the "Features" and "Home" sections, powered by **Spotlight** hover effects.
+-   **Apple-Level Animations**: Smooth scrolling (Lenis), parallax depth, and magnetic button interactions.
 
-## Learn More
+### 🛡️ Secure & Smart Authentication
+-   **Google OAuth Integration**: One-click "Continue with Google" sign-in using **NextAuth.js**.
+-   **Smart Email Validation**: Strictly filters out suspicious/temporary domains while allowing all professional and legitimate email providers.
+-   **Zod Schema Validation**: Robust form handling for Login, Signup, and Contact forms.
 
-To learn more about Next.js, take a look at the following resources:
+### ⚡ Interactive Components
+-   **Pricing Modal**: A portal-based, z-index-proof modal that overlays the entire app for a focused checkout experience.
+-   **Easter Eggs**: Try entering the **Konami Code** (`↑ ↑ ↓ ↓ ← → ← → B A`) or clicking "Join Waitlist" for a surprise!
+-   **Data Visualization**: Custom-built abstract UI graphics (`GraphicDashboard`, `GraphicVideo`) to represent features without generic icons.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+-   **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+-   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+-   **UI Library**: [Shadcn UI](https://ui.shadcn.com/) (Radix Primitives)
+-   **Animations**: [Framer Motion](https://www.framer.com/motion/) + [GSAP](https://gsap.com/)
+-   **Auth**: [NextAuth.js](https://next-auth.js.org/)
+-   **Forms**: React Hook Form + Zod
+-   **Effects**: `canvas-confetti`, `three.js` (for Shaders)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Getting Started
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/SathwikCreates/clean-saas-page.git
+    cd clean-saas-page
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install --legacy-peer-deps
+    ```
+
+3.  **Set up Environment Variables:**
+    Create a `.env.local` file in the root directory:
+    ```env
+    NEXTAUTH_URL=http://localhost:3000
+    NEXTAUTH_SECRET=your_generated_secret_here
+    GOOGLE_CLIENT_ID=your_google_client_id
+    GOOGLE_CLIENT_SECRET=your_google_client_secret
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  Open [http://localhost:3000](http://localhost:3000) to see the app live.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to submit a Pull Request.
+
+---
+
+*Built with ❤️ by AI & Human Collaboration.*
